@@ -61,3 +61,25 @@ flowchart TD
     E --> F
     F --> G[Train Hybrid LSTM-CNN Model]
     G --> H[Predict Stress Level]
+
+### 🔧 Programming Language
+- Python 3.x
+
+### 📚 Machine Learning & Deep Learning Libraries
+- TensorFlow
+- Keras
+- Scikit-learn
+- NumPy
+- Pandas
+
+### 📊 Visualization Libraries
+- Matplotlib
+- Seaborn
+
+### 🧪 Development & Execution
+- Jupyter Notebook
+- Google Colab
+
+### 🖥️ Tools / Platforms
+- GitHub (Version Control)
+- Wearable Sensor Data (EDA, HRV)
