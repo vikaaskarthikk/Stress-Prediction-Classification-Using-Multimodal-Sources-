@@ -51,16 +51,15 @@ Standard wearable-based stress detection dataset.
 
 ## 🧠 Project Workflow
 
-```mermaid
 flowchart TD
     A[Collect EDA & HRV Signals] --> B[Data Cleaning & Scaling]
     B --> C[Feature Extraction]
-    C --> D[Train ANN (EDA)]
-    C --> E[Train ANN (HRV)]
-    D --> F[Fuse Extracted Features]
+    C --> D[Train ANN for EDA]
+    C --> E[Train ANN for HRV]
+    D --> F[Feature Fusion]
     E --> F
     F --> G[Train Hybrid LSTM-CNN Model]
-    G --> H[Predict Stress Level]
+    G --> H[Stress Level Classification]
 
 ### 🔧 Programming Language
 - Python 3.x
